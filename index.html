@@ -6,61 +6,76 @@
     <title>Autumn Loveless</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="imported-styles.css">
 </head>
   <body>
     <main>
         <article class="contact-card m-4">
             <div class="contact-card-header">
-                <div id="dark-mode-container">
-                    <label for="dark-mode-toggle">Dark Mode:</label>
+                <div class="dark-mode-container">
+                    <label class="dark-mode-label" for="cb1">Dark Mode:</label>
                     <input class="tgl tgl-light" id="cb1" type="checkbox"/> <!-- https://codepen.io/mallendeo/pen/eLIiG -->
                     <label class="tgl-btn" for="cb1"></label> <!-- https://codepen.io/mallendeo/pen/eLIiG -->
                 </div>
             </div>
             <div class="contact-card-body">
-                <section id="personal-info-section" class="contact-card-section">
-                    <div id="profile-picture-container"></div>
-                    <div id="personal-info-container">
-                        <h1 id="name" class="personal-info-field">Autumn Loveless</h1>
-                        <p class="personal-info-field">Software Developer & Maker</p>
-                        <p class="personal-info-field">Cambridge, MA, USA</p>
-                    </div>
-                </section>
-                <!-- <section id="interactive-animation-section" class="contact-card-section d-none d-lg-block">
-                    I am an animation
-                </section> -->
-                <section id="description-section" class="contact-card-section">
-                    <h2 class="section-title">Description</h2>
-                    <p class="section-text">
-                        This is a description of who I am as a person, 
-                        what I value, what interests me, and 
-                        how I am going about pursuing those goals.
-                        This is a description of who I am as a person, 
-                        what I value, what interests me, and 
-                        how I am going about pursuing those goals.
-                        This is a description of who I am as a person, 
-                        what I value, what interests me, and 
-                        how I am going about pursuing those goals.
-                    </p>
-                </section>
-                <section id="skills-section" class="contact-card-section">
-                    <h2 class="section-title">Skills</h2>
-                    <p class="section-text">
-                        I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
-                        I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
-                        I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
-                        I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
-                        1. stuff
-                        2. More stuff
-                        3. even more things and stuff (Wow!)
-                        1. stuff
-                        2. More stuff
-                        3. even more things and stuff (Wow!)
-                    </p>
-                </section>
+                <div class="container personal-info-container">
+                    <section id="personal-info-section" class="contact-card-section">
+                        <div id="profile-picture-container">
+                            <!-- <img id="profile-picture" class="picture-background gradient-background" src="icons/robot.svg" alt=""> -->
+                            <img id="profile-picture" class="" src="icons/person.svg" alt="">
+
+                        </div>
+                        <div id="personal-info-details-container">
+                            <h1 id="name" class="personal-info-field">Autumn Loveless</h1>
+                            <p class="personal-info-field">Software Developer & Maker</p>
+                            <p class="personal-info-field">Cambridge, MA, USA</p>
+                        </div>
+                    </section>
+                    <!-- <section id="interactive-animation-section" class="contact-card-section d-none d-lg-block">
+                        I am an animation5
+                    </section> -->
+                </div>
+                <div class="container details-container">
+                    <section id="description-section" class="contact-card-section">
+                        <h2 class="section-title">Description</h2>
+                        <p class="section-text">
+                            This is a description of who I am as a person, 
+                            what I value, what interests me, and 
+                            how I am going about pursuing those goals.
+                            This is a description of who I am as a person, 
+                            what I value, what interests me, and 
+                            how I am going about pursuing those goals.
+                            This is a description of who I am as a person, 
+                            what I value, what interests me, and 
+                            how I am going about pursuing those goals.
+                        </p>
+                    </section>
+                    <section id="skills-section" class="contact-card-section">
+                        <h2 class="section-title">Skills</h2>
+                        <p class="section-text">
+                            I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
+                            I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
+                            I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
+                            I am good at so many things. Like math. and typIng. Also video games. and other stuff too, like writing.
+                            1. stuff
+                            2. More stuff
+                            3. even more things and stuff (Wow!)
+                            1. stuff
+                            2. More stuff
+                            3. even more things and stuff (Wow!)
+                        </p>
+                    </section>
+                </div>
             </div>
         </article>
     </main>
+    <footer>
+        <!-- <div>Robot Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+    
+    </footer>
   </body>
 </html>
 
